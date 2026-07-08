@@ -1,0 +1,156 @@
+{
+  "_info": "Manifest de versiones de NOVA AI. Cuando quieras publicar una nueva version, incrementa el numero de version y anade el changelog. Los usuarios veran el aviso automaticamente.",
+  "_repo": "https://github.com/aqdriop/Nova-Studios",
+  "_actualizado": "2026-07-08",
+  "modulos": {
+    "jarvis": {
+      "version": "2.0.0",
+      "fecha": "2026-07-08",
+      "changelog": "🎉 v2.0.0 - Version inicial con sistema de actualizaciones\n\n✨ Novedades:\n- 56 herramientas integradas\n- 8 personalidades intercambiables (Formal, Coleguita, Sarcastico, Coach, Profesor, Pirata, Haiku, Cientifico)\n- Control de musica (Spotify + YouTube + teclas media)\n- Vision continua de pantalla\n- Modo agente multi-paso\n- RAG con documentos\n- Wake word con voz\n- Sistema de rutinas programadas\n- Analisis de imagenes y capturas\n- Integraciones con WhatsApp, Gmail, Calendar, Maps, GitHub\n\n🔧 Este es el primer release. Cuando publiques una version nueva en tu repo, aqui apareceran las mejoras.",
+      "archivos": [
+        {
+          "nombre": "nova_jarvis.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/jarvis/nova_jarvis.py"
+        },
+        {
+          "nombre": "nova_personalidades.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/jarvis/nova_personalidades.py"
+        },
+        {
+          "nombre": "nova_musica.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/jarvis/nova_musica.py"
+        },
+        {
+          "nombre": "nova_voz.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/jarvis/nova_voz.py"
+        },
+        {
+          "nombre": "nova_rag.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/jarvis/nova_rag.py"
+        }
+      ]
+    },
+    "translator": {
+      "version": "1.0.0",
+      "fecha": "2026-07-08",
+      "changelog": "🎉 v1.0.0 - Traductor de pantalla en tiempo real\n\n✨ Caracteristicas:\n- 3 motores (Vision IA, Google, IA + OCR)\n- Modo overlay + panel\n- Panel arrastrable y redimensionable\n- Cache de traducciones persistente\n- Soporta 16 idiomas\n- Deteccion multiple con preprocesado agresivo",
+      "archivos": [
+        {
+          "nombre": "nova_translator.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/translator/nova_translator.py"
+        }
+      ]
+    },
+    "office": {
+      "version": "1.0.0",
+      "fecha": "2026-07-08",
+      "changelog": "🎉 v1.0.0 - Suite ofimatica con IA\n\n✨ Caracteristicas:\n- Genera Word (.docx), Excel (.xlsx), PowerPoint (.pptx), CV\n- 8 plantillas Word, 8 Excel, 7 PowerPoint\n- 6 temas de color para PPT\n- Preview antes de guardar\n- Convierte Markdown a Word con formato real",
+      "archivos": [
+        {
+          "nombre": "nova_office.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/office/nova_office.py"
+        }
+      ]
+    },
+    "coach": {
+      "version": "1.0.0",
+      "fecha": "2026-07-08",
+      "changelog": "🎉 v1.0.0 - Coach personal con IA\n\n✨ Caracteristicas:\n- Dashboard con racha y motivacion IA diaria\n- Planes de ejercicio (9 tipos personalizados)\n- Dietas (10 tipos, respeta alergias)\n- Tracker de habitos con grafica 7 dias\n- Metas SMART sugeridas por IA\n- Chat coach contextual con tu perfil\n- Sincronizado con NOVA Brain",
+      "archivos": [
+        {
+          "nombre": "nova_coach.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/coach/nova_coach.py"
+        }
+      ]
+    },
+    "studio": {
+      "version": "1.0.0",
+      "fecha": "2026-07-08",
+      "changelog": "🎉 v1.0.0 - Generador multimedia\n\n✨ Caracteristicas:\n- Guiones + imagenes + audio TTS\n- 7 tipos de proyecto (TikTok, cuento, anuncio, tutorial...)\n- 10 estilos visuales (cinematografico, anime, pixel art, etc.)\n- 7 voces TTS espanolas\n- Storyboard visual integrado\n- Exportacion HTML interactivo + script FFmpeg",
+      "archivos": [
+        {
+          "nombre": "nova_studio.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/studio/nova_studio.py"
+        }
+      ]
+    },
+    "reader": {
+      "version": "1.0.0",
+      "fecha": "2026-07-08",
+      "changelog": "🎉 v1.0.0 - Lector inteligente de documentos\n\n✨ Caracteristicas:\n- Carga PDF, TXT, DOCX, MD\n- 5 acciones rapidas: Resumir, Ideas clave, Apuntes, Quiz, Explica simple\n- Pregunta libre sobre documentos\n- OCR de PDFs escaneados",
+      "archivos": [
+        {
+          "nombre": "nova_reader.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/reader/nova_reader.py"
+        }
+      ]
+    },
+    "search": {
+      "version": "1.0.0",
+      "fecha": "2026-07-08",
+      "changelog": "🎉 v1.0.0 - Busqueda semantica en tus archivos\n\n✨ Caracteristicas:\n- Indexa carpetas de tu PC\n- 2 modos: textual y semantica con IA\n- Vista previa con highlights",
+      "archivos": [
+        {
+          "nombre": "nova_search.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/search/nova_search.py"
+        }
+      ]
+    },
+    "game_master": {
+      "version": "1.0.0",
+      "fecha": "2026-07-08",
+      "changelog": "🎉 v1.0.0 - Master de rol con IA\n\n✨ Caracteristicas:\n- 8 generos (Fantasia, Sci-fi, Terror, Western, Noir, Zombies, Samurai, Piratas)\n- Sistema de dados con criticos\n- Memoria de partida (guardar/continuar)\n- Genera arte de escenas con Pollinations",
+      "archivos": [
+        {
+          "nombre": "nova_game_master.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/game_master/nova_game_master.py"
+        }
+      ]
+    },
+    "brain_hub": {
+      "version": "1.0.0",
+      "fecha": "2026-07-08",
+      "changelog": "🎉 v1.0.0 - Dashboard central del ecosistema\n\n✨ Caracteristicas:\n- Panel de los 13+ modulos NOVA\n- Estado en tiempo real\n- Quick chat + Quick imagen\n- Estadisticas y logs unificados",
+      "archivos": [
+        {
+          "nombre": "nova_brain_hub.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/brain_hub/nova_brain_hub.py"
+        }
+      ]
+    },
+    "telegram": {
+      "version": "1.0.0",
+      "fecha": "2026-07-08",
+      "changelog": "🎉 v1.0.0 - Bot de Telegram para NOVA\n\n✨ Caracteristicas:\n- Chat con IA desde tu movil\n- Comandos /start /imagen /reset /help /info\n- Filtro de chats permitidos\n- Setup interactivo",
+      "archivos": [
+        {
+          "nombre": "nova_telegram.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/telegram/nova_telegram.py"
+        }
+      ]
+    },
+    "shared": {
+      "version": "2.0.0",
+      "fecha": "2026-07-08",
+      "changelog": "🎉 v2.0.0 - Librerias compartidas\n\n✨ Caracteristicas:\n- nova_ia_lib: 6 proveedores IA (Groq, Gemini, OpenAI, Claude, NVIDIA, Ollama)\n- Deteccion automatica de modelos\n- Soporte de vision multimodal\n- nova_brain: memoria compartida entre modulos\n- nova_ui: sistema de diseno unificado\n- nova_updater: sistema de actualizaciones\n\nSe usa en TODOS los modulos NOVA.",
+      "archivos": [
+        {
+          "nombre": "nova_ia_lib.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/shared/nova_ia_lib.py"
+        },
+        {
+          "nombre": "nova_brain.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/shared/nova_brain.py"
+        },
+        {
+          "nombre": "nova_ui.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/shared/nova_ui.py"
+        },
+        {
+          "nombre": "nova_updater.py",
+          "url": "https://raw.githubusercontent.com/aqdriop/Nova-Studios/main/files/shared/nova_updater.py"
+        }
+      ]
+    }
+  }
+}
